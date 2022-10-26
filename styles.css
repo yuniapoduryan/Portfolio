@@ -9,6 +9,9 @@
 
 body {
     font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 nav {
@@ -35,6 +38,119 @@ h1 {
     font-size: 48px;
 }
 
-header {
-    margin-left: 235px;
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+section:nth-child(even) {
+    background: #E5E5E5;
+}
+
+.content {
+    width: 970px;
+}
+
+.Denis img {
+    width: 100%;
+}
+
+.About .content {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about_text {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_text p {
+    text-align: center;
+}
+
+.Skills .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.Programs {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Portfolio {
+    padding-top: 100px;
+}
+
+.Portfolio h2,
+.Portfolio p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Footer {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Portfolio p {
+    text-decoration: underline;
+}
+
+.contacts h2 {
+    margin: 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 22px;
+    background-color: #070707;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.contacts p {
+    margin-bottom: 60px;
+}
+
+.socials_links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+}
+
+.Footer {
+    margin-bottom: 100px;
+    margin-top: 60px;
 }
